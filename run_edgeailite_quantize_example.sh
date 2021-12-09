@@ -51,9 +51,9 @@ exec &> >(tee -a "$log_file")
 # ----------------------------------
 # model names and pretrained paths from torchvision - add more as required
 declare -A model_pretrained=(
-  [mobilenet_v2]=https://download.pytorch.org/models/mobilenet_v2-b0353104.pth
-  [resnet50]=https://download.pytorch.org/models/resnet50-19c8e357.pth
-  [shufflenet_v2_x1_0]=https://download.pytorch.org/models/shufflenetv2_x1-5666bf0f80.pth
+  [mobilenetv2_tv_x1]=https://download.pytorch.org/models/mobilenet_v2-b0353104.pth
+  #[resnet50_x1]=https://download.pytorch.org/models/resnet50-19c8e357.pth
+  #[shufflenet_v2_x1_0]=https://download.pytorch.org/models/shufflenetv2_x1-5666bf0f80.pth
   #[mobilenetv2_shicai]='./data/modelzoo/pytorch/image_classification/imagenet1k/shicai/mobilenetv2_shicai_rgb.pth'
 )
 
